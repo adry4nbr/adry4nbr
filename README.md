@@ -2,7 +2,7 @@
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=adry4nbr.adry4nbr&left_color=6272a4&right_color=bd93f9&left_text=visitors" alt="visitors"/>
 
-# Olá, eu sou o Adryan! 👋
+# Olá, eu sou Adryan!
 
 🎓 ADS • UNINASSAU Graças — 3º Período  
 📍 Camaragibe, PE  
