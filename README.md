@@ -17,17 +17,21 @@
 ![TypeScript](https://img.shields.io/badge/-TypeScript-282a36?style=for-the-badge&logo=typescript&logoColor=8be9fd)
 ![Python](https://img.shields.io/badge/-Python-282a36?style=for-the-badge&logo=python&logoColor=bd93f9)
 ![PHP](https://img.shields.io/badge/-PHP-282a36?style=for-the-badge&logo=php&logoColor=ff79c6)
-![SQL](https://img.shields.io/badge/-SQL-282a36?style=for-the-badge&logo=postgresql&logoColor=50fa7b)
+![Java](https://img.shields.io/badge/-Java-282a36?style=for-the-badge&logo=openjdk&logoColor=ff5555)
 
 ![React](https://img.shields.io/badge/-React-282a36?style=for-the-badge&logo=react&logoColor=8be9fd)
 ![Next.js](https://img.shields.io/badge/-Next.js-282a36?style=for-the-badge&logo=next.js&logoColor=f8f8f2)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind-282a36?style=for-the-badge&logo=tailwindcss&logoColor=8be9fd)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-282a36?style=for-the-badge&logo=bootstrap&logoColor=bd93f9)
 ![Node.js](https://img.shields.io/badge/-Node.js-282a36?style=for-the-badge&logo=node.js&logoColor=50fa7b)
 ![Supabase](https://img.shields.io/badge/-Supabase-282a36?style=for-the-badge&logo=supabase&logoColor=50fa7b)
 
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-282a36?style=for-the-badge&logo=postgresql&logoColor=8be9fd)
+![MySQL](https://img.shields.io/badge/-MySQL-282a36?style=for-the-badge&logo=mysql&logoColor=f1fa8c)
 ![Git](https://img.shields.io/badge/-Git-282a36?style=for-the-badge&logo=git&logoColor=ff5555)
 ![Vercel](https://img.shields.io/badge/-Vercel-282a36?style=for-the-badge&logo=vercel&logoColor=f8f8f2)
 ![Docker](https://img.shields.io/badge/-Docker-282a36?style=for-the-badge&logo=docker&logoColor=8be9fd)
+![Postman](https://img.shields.io/badge/-Postman-282a36?style=for-the-badge&logo=postman&logoColor=ff79c6)
 
 ---
 
