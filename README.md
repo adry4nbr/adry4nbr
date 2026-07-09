@@ -32,12 +32,28 @@
 ![Vercel](https://img.shields.io/badge/-Vercel-282a36?style=for-the-badge&logo=vercel&logoColor=f8f8f2)
 ![Docker](https://img.shields.io/badge/-Docker-282a36?style=for-the-badge&logo=docker&logoColor=8be9fd)
 ![Postman](https://img.shields.io/badge/-Postman-282a36?style=for-the-badge&logo=postman&logoColor=ff79c6)
+![Google Gemini](https://img.shields.io/badge/-Gemini%20API-282a36?style=for-the-badge&logo=googlegemini&logoColor=bd93f9)
 
 ---
 
-### 🔥 Projeto em Destaque — PocketMarket
+### 🔥 Projeto em Destaque — Planej.ai
 
-> Marketplace completo de cartas Pokémon TCG desenvolvido com Java 21 + Spring Boot 3 no backend e React + Tailwind no frontend.
+> Educador Financeiro Inteligente desenvolvido com React 19 + TypeScript + Google Gemini API. Projeto final do Bootcamp Santander 2026 — AI React Front-End (DIO · 42h).
+
+- 🧠 Planos financeiros personalizados gerados por IA  
+- 💬 Chat integrado para tirar dúvidas financeiras  
+- 📊 Histórico completo de simulações anteriores  
+- ⚛️ React 19 com hooks, componentes funcionais e arquitetura escalável  
+- 🎨 Theming global com variáveis CSS + Tailwind CSS
+
+[![Deploy](https://img.shields.io/badge/Deploy-282a36?style=for-the-badge&logo=vercel&logoColor=50fa7b)](https://planejaai-lake.vercel.app)
+[![Repositório](https://img.shields.io/badge/Repositório-282a36?style=for-the-badge&logo=github&logoColor=f8f8f2)](https://github.com/adry4nbr/planejaai)
+
+---
+
+### 🃏 PocketMarket
+
+> Marketplace completo de cartas Pokémon TCG com Java 21 + Spring Boot 3 no backend e React + Tailwind no frontend.
 
 - 🔐 Autenticação JWT com Spring Security  
 - 🏪 Venda direta, leilões com lances e sistema de trocas  
