@@ -4,7 +4,7 @@
 
 # Olá, eu sou Adryan!
 
-🎓 ADS • UNINASSAU Graças — 3º Período  
+🎓 ADS • UNINASSAU Graças — 4º Período  
 📍 Camaragibe, PE  
 🏆 Vencedor de Hackathon — Quiz de Conscientização para Neurodivergências  
 🎯 Dev Front-End em formação, com projetos reais em produção
@@ -36,7 +36,22 @@
 
 ---
 
-### 🔥 Projeto em Destaque — Planej.ai
+### 🌀 Projeto em Destaque — Gojofolio
+
+> Portfólio pessoal de alto impacto visual, inspirado no universo de Jujutsu Kaisen e na estética do Satoru Gojo. Construído com React 19 + TypeScript + Vite + Tailwind CSS v4 + Motion.
+
+- 👁️ Six Eyes Icon animado, orbes de energia cursada (vermelho/azul) que colidem em uma explosão roxa
+- ☯️ Light Mode ("Jujutsu High Tech") e Dark Mode ("Vazio Imensurável") com temas totalmente distintos
+- 🎬 Animações de revelação por seção via Motion (`whileInView`, `staggerChildren`)
+- 🗂️ Arquitetura orientada a dados — projetos, tecnologias e contatos desacoplados da renderização
+- ✅ Projeto finalizado, responsivo e no ar
+
+[![Deploy](https://img.shields.io/badge/Deploy-282a36?style=for-the-badge&logo=vercel&logoColor=50fa7b)](https://gojofolio.vercel.app/)
+[![Repositório](https://img.shields.io/badge/Repositório-282a36?style=for-the-badge&logo=github&logoColor=f8f8f2)](https://github.com/adry4nbr/gojofolio)
+
+---
+
+### 🔥 Planej.ai
 
 > Educador Financeiro Inteligente desenvolvido com React 19 + TypeScript + Google Gemini API. Projeto final do Bootcamp Santander 2026 — AI React Front-End (DIO · 42h).
 
