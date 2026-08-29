@@ -7,7 +7,7 @@
 🎓 ADS • UNINASSAU Graças — 4º Período  
 📍 Camaragibe, PE  
 🏆 Vencedor de Hackathon — Quiz de Conscientização para Neurodivergências  
-🎯 Dev Front-End em formação, com projetos reais em produção
+🎯 Dev Full-Stack em formação, com projetos reais em produção
 
 ---
 
@@ -33,6 +33,23 @@
 ![Docker](https://img.shields.io/badge/-Docker-282a36?style=for-the-badge&logo=docker&logoColor=8be9fd)
 ![Postman](https://img.shields.io/badge/-Postman-282a36?style=for-the-badge&logo=postman&logoColor=ff79c6)
 ![Google Gemini](https://img.shields.io/badge/-Gemini%20API-282a36?style=for-the-badge&logo=googlegemini&logoColor=bd93f9)
+
+---
+
+### 🔐 Auth Benchmark — Sistema de Autenticação Multi-Stack `em andamento`
+
+> Projeto comparativo: o mesmo sistema de autenticação implementado em três stacks de back-end distintas (NestJS, Spring Boot e Laravel), consumidas por um único front-end em Angular com troca dinâmica de API.
+
+- ✅ **Backend NestJS completo:** cadastro e login com JWT, Guards e Passport
+- 🛡️ RBAC com admin único (seedado, sem rota de promoção) e decorator customizado
+- 🔑 2FA via TOTP (QR Code e chave manual), compatível com Google Authenticator/Authy
+- 🔓 Login social com Google (OAuth2/OIDC)
+- ♻️ Refresh token com rotação a cada uso e hash otimizado (SHA-256)
+- ✉️ Recuperação de senha com proteção contra enumeração de usuários
+- 🧪 Testes unitários cobrindo toda a lógica de negócio
+- 🚧 Em desenvolvimento: backends em Spring Boot e Laravel, e front-end em Angular
+
+[![Repositório](https://img.shields.io/badge/Repositório-282a36?style=for-the-badge&logo=github&logoColor=f8f8f2)](https://github.com/adry4nbr/Auth-benchmark)
 
 ---
 
@@ -66,26 +83,11 @@
 
 ---
 
-### 🃏 PocketMarket
-
-> Marketplace completo de cartas Pokémon TCG com Java 21 + Spring Boot 3 no backend e React + Tailwind no frontend.
-
-- 🔐 Autenticação JWT com Spring Security  
-- 🏪 Venda direta, leilões com lances e sistema de trocas  
-- 💳 Carteira interna de créditos  
-- 🔗 Integração com a Pokémon TCG API oficial  
-- ✅ 132 testes executados — 0 falhas (cobertura via JaCoCo)  
-- 📄 API documentada com Swagger/OpenAPI
-
-[![Backend](https://img.shields.io/badge/Backend-282a36?style=for-the-badge&logo=github&logoColor=ff79c6)](https://github.com/ViniciusS4ntos/PocketMarket)
-[![Frontend](https://img.shields.io/badge/Frontend-282a36?style=for-the-badge&logo=github&logoColor=8be9fd)](https://github.com/adry4nbr/PocketMarket-Frontend)
-
----
-
 ### 🌐 Outros Projetos
 
 | Projeto | Stack | Link |
 |---|---|---|
+| 🃏 PocketMarket — Frontend | React, Tailwind, TanStack Query (backend em Java 21 + Spring Boot 3, feito em grupo) | [pocketmarket-frontend.vercel.app](https://pocketmarket-frontend.vercel.app) |
 | 🧙 Crazy Index | Next.js, TypeScript, Supabase, Tailwind v4 | [crazyindex.vercel.app](https://crazyindex.vercel.app) |
 | 🌍 Explorador de Países | Next.js, TypeScript, REST API | [nextjs-countries-challenge.vercel.app](https://nextjs-countries-challenge.vercel.app) |
 | 💰 Gerenciador Financeiro | React.js, Tailwind | [gerenciador-de-financa.vercel.app](https://gerenciador-de-financa.vercel.app) |
