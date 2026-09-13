@@ -21,9 +21,11 @@
 
 ![React](https://img.shields.io/badge/-React-282a36?style=for-the-badge&logo=react&logoColor=8be9fd)
 ![Next.js](https://img.shields.io/badge/-Next.js-282a36?style=for-the-badge&logo=next.js&logoColor=f8f8f2)
+![Angular](https://img.shields.io/badge/-Angular-282a36?style=for-the-badge&logo=angular&logoColor=ff5555)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind-282a36?style=for-the-badge&logo=tailwindcss&logoColor=8be9fd)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-282a36?style=for-the-badge&logo=bootstrap&logoColor=bd93f9)
 ![Node.js](https://img.shields.io/badge/-Node.js-282a36?style=for-the-badge&logo=node.js&logoColor=50fa7b)
+![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-282a36?style=for-the-badge&logo=springboot&logoColor=50fa7b)
 ![Supabase](https://img.shields.io/badge/-Supabase-282a36?style=for-the-badge&logo=supabase&logoColor=50fa7b)
 
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-282a36?style=for-the-badge&logo=postgresql&logoColor=8be9fd)
@@ -40,14 +42,16 @@
 
 > Projeto comparativo: o mesmo sistema de autenticação implementado em três stacks de back-end distintas (NestJS, Spring Boot e Laravel), consumidas por um único front-end em Angular com troca dinâmica de API.
 
-- ✅ **Backend NestJS completo:** cadastro e login com JWT, Guards e Passport
-- 🛡️ RBAC com admin único (seedado, sem rota de promoção) e decorator customizado
+- ✅ **Backend NestJS completo:** JWT, Guards e Passport, Prisma ORM
+- ✅ **Backend Spring Boot completo:** Spring Security com filtro JWT customizado, Hibernate/JPA, migrations versionadas com Flyway
+- 🛡️ RBAC com admin único (seedado, sem rota de promoção) — replicado com paridade nos dois backends
 - 🔑 2FA via TOTP (QR Code e chave manual), compatível com Google Authenticator/Authy
 - 🔓 Login social com Google (OAuth2/OIDC)
 - ♻️ Refresh token com rotação a cada uso e hash otimizado (SHA-256)
 - ✉️ Recuperação de senha com proteção contra enumeração de usuários
-- 🧪 Testes unitários cobrindo toda a lógica de negócio
-- 🚧 Em desenvolvimento: backends em Spring Boot e Laravel, e front-end em Angular
+- 🧱 Anti-XSS, CORS estrito e Rate Limiting nas rotas sensíveis (backend Spring Boot)
+- 🧪 Testes unitários cobrindo toda a lógica de negócio nos dois backends
+- 🚧 Em desenvolvimento: front-end em Angular (prioridade atual) e backend em Laravel
 
 [![Repositório](https://img.shields.io/badge/Repositório-282a36?style=for-the-badge&logo=github&logoColor=f8f8f2)](https://github.com/adry4nbr/Auth-benchmark)
 
