@@ -25,6 +25,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind-282a36?style=for-the-badge&logo=tailwindcss&logoColor=8be9fd)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-282a36?style=for-the-badge&logo=bootstrap&logoColor=bd93f9)
 ![Node.js](https://img.shields.io/badge/-Node.js-282a36?style=for-the-badge&logo=node.js&logoColor=50fa7b)
+![NestJS](https://img.shields.io/badge/-NestJS-282a36?style=for-the-badge&logo=nestjs&logoColor=ff5555)
 ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-282a36?style=for-the-badge&logo=springboot&logoColor=50fa7b)
 ![Supabase](https://img.shields.io/badge/-Supabase-282a36?style=for-the-badge&logo=supabase&logoColor=50fa7b)
 
@@ -40,19 +41,23 @@
 
 ### 🔐 Auth Benchmark — Sistema de Autenticação Multi-Stack `em andamento`
 
-> Projeto comparativo: o mesmo sistema de autenticação implementado em três stacks de back-end distintas (NestJS, Spring Boot e Laravel), consumidas por um único front-end em Angular com troca dinâmica de API.
+> Projeto comparativo: o mesmo sistema de autenticação, com o mesmo contrato de API, em stacks de back-end distintas (NestJS e Spring Boot concluídos; Laravel planejado), consumidas por um único front-end em Angular com troca dinâmica de API. **Já está no ar para você testar.**
 
 - ✅ **Backend NestJS completo:** JWT, Guards e Passport, Prisma ORM
 - ✅ **Backend Spring Boot completo:** Spring Security com filtro JWT customizado, Hibernate/JPA, migrations versionadas com Flyway
+- ✅ **Front-end Angular 21 completo:** PrimeNG + Tailwind v4, guards e interceptors, dashboard de admin responsivo
 - 🛡️ RBAC com admin único (seedado, sem rota de promoção) — replicado com paridade nos dois backends
-- 🔑 2FA via TOTP (QR Code e chave manual), compatível com Google Authenticator/Authy
+- 🔑 2FA via TOTP (QR Code e chave manual), compatível com Google Authenticator/Authy, com proteção contra reuso de código
 - 🔓 Login social com Google (OAuth2/OIDC)
 - ♻️ Refresh token com rotação a cada uso e hash otimizado (SHA-256)
-- ✉️ Recuperação de senha com proteção contra enumeração de usuários
-- 🧱 Anti-XSS, CORS estrito e Rate Limiting nas rotas sensíveis (backend Spring Boot)
-- 🧪 Testes unitários cobrindo toda a lógica de negócio nos dois backends
-- 🚧 Em desenvolvimento: front-end em Angular (prioridade atual) e backend em Laravel
+- ✉️ Recuperação de senha com e-mail real e proteção contra enumeração de usuários
+- 🧱 Anti-XSS, CORS estrito e Rate Limiting por IP real (atrás de proxy) nos dois backends
+- 🧪 Testes unitários e e2e nos dois backends e no front-end
+- 🚀 Deploy gratuito: Vercel (front), Render com Docker (APIs) e Neon (PostgreSQL)
+- 🐛 READMEs documentam os bugs reais encontrados no caminho (ex.: bypass de 2FA via login social, rate limiting inoperante)
+- 🚧 Próximo passo: backend em Laravel
 
+[![Deploy](https://img.shields.io/badge/Deploy-282a36?style=for-the-badge&logo=vercel&logoColor=50fa7b)](https://auth-benchmark.vercel.app/)
 [![Repositório](https://img.shields.io/badge/Repositório-282a36?style=for-the-badge&logo=github&logoColor=f8f8f2)](https://github.com/adry4nbr/Auth-benchmark)
 
 ---
